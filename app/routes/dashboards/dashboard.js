@@ -865,7 +865,7 @@ export default Ember.Route.extend({
                     },
                     {
                         chartType: 'donut',
-                        widgetType: 'c3-chart',
+                        widgetType: 'plotly-chart',
                         name: 'Data Providers',
                         width: 6,
                         mappingType: "OBJECT_TO_ARRAY",
